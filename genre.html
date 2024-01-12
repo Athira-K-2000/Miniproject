@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Music Store</title>
+  
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+  
+  <style>
+    body {
+      background-color: black;
+    }
+
+    .navbar {
+        justify-content: center; 
+    }
+
+    .navbar-nav {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .navbar-nav .nav-item {
+        padding: 0 15px; 
+    }
+
+    nav ul {
+      list-style: none;
+      padding: 0;
+    }
+
+    nav ul li {
+      display: inline;
+      margin-right: 20px;
+    }
+    
+    nav a {
+      text-decoration: none;
+      color: #fff;
+      font-weight: bold;
+    }
+
+    .container-fluid {
+        padding: 20px;
+    }
+
+
+    .jumbotron {
+      background-image: url('headphones.jpg'); 
+      background-size: cover;
+      background-position: center; 
+      background-repeat: no-repeat; 
+      height: 50vh; 
+      margin: 0; 
+      display: flex;
+      flex-direction: column;
+      color: #ffffff;
+      padding: 2rem;
+    }
+
+    .album-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      margin: 20px;
+    }
+
+    .album-card {
+      width: 250px;
+      margin: 10px;
+    }
+  </style>
+</head>
+
+<body>
+
+    <!-- Navbar -->
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark fixed-top bg-dark">
+    <a class="navbar-brand" href="#">Music Store</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+            <li class="nav-item active">
+                <a class="nav-link" href="prjt.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="genre.html">Genres</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="topcharts.html">Top Charts</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="artists.html">Artists</a>
+              </li>
+        </ul>
+    </div>
+</nav>
+
+  <!-- Jumbotron -->
+  <br>
+  <br>
+  
+
+  <!-- Album Section -->
+  <div class="container-fluid">
+    <div class="album-container">
+      <div class="card album-card">
+        <img src="popmusic.jpg" class="card-img-top" alt="Album Cover">
+        <div class="card-body">
+          <h5 class="card-title">Pop</h5>
+          <button onclick="goToNextPage()">Play</button>
+
+          <script>
+            function goToNextPage() {
+              window.location.href = "pop.html";
+            }
+          </script>
+        </div>
+      </div>
+
+    
+      <div class="card album-card">
+        <img src="rockmusic.jpg" class="card-img-top" alt="Album Cover">
+        <div class="card-body">
+          <h5 class="card-title">Rock</h5>
+          <button onclick="goToNextPage()">Play</button>
+
+          <script>
+            function goToNextPage() {
+              window.location.href = "pop.html";
+            }
+          </script>
+        </div>
+      </div>
+      
+      
+      <div class="card album-card">
+        <img src="classical.jpg" class="card-img-top" alt="Album Cover">
+        <div class="card-body">
+          <h5 class="card-title">Classical</h5>
+          <button onclick="goToNextPage()">Play</button>
+
+          <script>
+            function goToNextPage() {
+              window.location.href = "pop.html";
+            }
+          </script>
+        </div>
+      </div>
+
+    
+      <div class="card album-card">
+        <img src="jazz.jpg" class="card-img-top" alt="Album Cover">
+        <div class="card-body">
+          <h5 class="card-title">Jazz</h5>
+          <button onclick="goToNextPage()">Play</button>
+
+          <script>
+            function goToNextPage() {
+              window.location.href = "pop.html";
+            }
+          </script>
+        </div>
+      </div>
+
+      <div class="card album-card">
+        <img src="hiphop.jpg" class="card-img-top" alt="Album Cover">
+        <div class="card-body">
+          <h5 class="card-title">Hip-hop & Rap</h5>
+          <button onclick="goToNextPage()">Play</button>
+
+          <script>
+            function goToNextPage() {
+              window.location.href = "pop.html";
+            }
+          </script>
+        </div>
+      </div>
+
+      <div class="card album-card">
+        <img src="country.jpg" class="card-img-top" alt="Album Cover">
+        <div class="card-body">
+          <h5 class="card-title">Country</h5>
+          <button onclick="goToNextPage()">Play</button>
+
+          <script>
+            function goToNextPage() {
+              window.location.href = "pop.html";
+            }
+          </script>
+        </div>
+      </div>
+
+      <div class="card album-card">
+        <img src="dancemusic.webp" class="card-img-top" alt="Album Cover">
+        <div class="card-body">
+          <h5 class="card-title">Dance</h5>
+          <button onclick="goToNextPage()">Play</button>
+
+          <script>
+            function goToNextPage() {
+              window.location.href = "pop.html";
+            }
+          </script>
+        </div>
+    </div>
+
+    <div class="card album-card">
+        <img src="elecmusic.jpg" class="card-img-top" alt="Album Cover">
+        <div class="card-body">
+          <h5 class="card-title">Electronic</h5>
+          <button onclick="goToNextPage()">Play</button>
+
+          <script>
+            function goToNextPage() {
+              window.location.href = "pop.html";
+            }
+          </script>
+        </div>
+    </div>
+
+    <div class="card album-card">
+        <img src="r&b.jpg" class="card-img-top" alt="Album Cover">
+        <div class="card-body">
+          <h5 class="card-title">R&B/Soul</h5>
+          <button onclick="goToNextPage()">Play</button>
+
+          <script>
+            function goToNextPage() {
+              window.location.href = "pop.html";
+            }
+          </script>
+        </div>
+    </div>
+
+    <div class="card album-card">
+        <img src="retro.jpg" class="card-img-top" alt="Album Cover">
+        <div class="card-body">
+          <h5 class="card-title">Retro</h5>
+          <button onclick="goToNextPage()">Play</button>
+
+          <script>
+            function goToNextPage() {
+              window.location.href = "pop.html";
+            }
+          </script>
+        </div>
+    </div>
+
+      
+
+
+    </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+</body>
+
+</html>
